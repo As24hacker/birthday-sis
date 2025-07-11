@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Piyu 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎂 Happy Birthday Piyu 💖</h1>
+
+  <!-- Play Music Button -->
+  <div class="audio-player">
+    <button onclick="document.getElementById('birthdayAudio').play()">▶️ Play Birthday Song</button>
+    <audio id="birthdayAudio" src="audio/birthday.mp3"></audio>
+  </div>
+
+  <!-- 22 Letters Buttons -->
+  <section class="letters">
+    <h2>💌 Birthday Letters</h2>
+    <div class="button-grid" id="letters-container"></div>
+  </section>
+
+  <!-- Message Modal -->
+  <div id="messageModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id="messageText"></p>
+    </div>
+  </div>
+
+  <!-- 10 Cute GIFs -->
+  <section class="gif-gallery">
+    <h2>🎀 Cute GIFs</h2>
+    <div class="media-grid">
+      <img src="gifs/cute1.gif">
+      <img src="gifs/cute2.gif">
+      <img src="gifs/cute3.gif">
+      <img src="gifs/cute4.gif">
+      <img src="gifs/cute5.gif">
+      <img src="gifs/cute6.gif">
+      <img src="gifs/cute7.gif">
+      <img src="gifs/cute8.gif">
+      <img src="gifs/cute9.gif">
+      <img src="gifs/cute10.gif">
+    </div>
+  </section>
+
+  <!-- 10 Images -->
+  <section class="image-gallery">
+    <h2>📸 Our Moments</h2>
+    <div class="media-grid">
+      <img src="images/img1.jpg">
+      <img src="images/img2.jpg">
+      <img src="images/img3.jpg">
+      <img src="images/img4.jpg">
+      <img src="images/img5.jpg">
+      <img src="images/img6.jpg">
+      <img src="images/img7.jpg">
+      <img src="images/img8.jpg">
+      <img src="images/img9.jpg">
+      <img src="images/img10.jpg">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
